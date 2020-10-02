@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "ReloadAll",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/multi-detectives.svg"
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/multi-detectives.svg",
+    "default_title": "ReloadAll"
+  },
+
+  "background": {
+    "scripts": ["CodeName.js"]
+  }
+
+
+}
