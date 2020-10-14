@@ -10,7 +10,9 @@
 
   "permissions": [
     "tabs",
-    "activeTab"
+    "activeTab",
+    "contextualIdentities",
+    "cookies"
   ],
 
   "browser_action": {
